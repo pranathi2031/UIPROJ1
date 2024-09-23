@@ -1,0 +1,482 @@
+{
+    "user": [
+        {
+            "date": "2024-08-15",
+            "movieTitle": "Inside Out 2",
+            "language": "English",
+            "director":"Kelsey Mann",
+            "genre": {
+                "adventure": true,
+                "comedy": true,
+                "romance": false,
+                "family": true,
+                "drama": true,
+                "sciFi": false,
+                "horror":false,
+                "action":false,
+                "fantasy":false,
+                "thriller":false
+            },
+            "releaseYear": "2024",
+            "duration": "1h36m",
+            "platform":{
+                "ott":false,
+                "theatre":true,
+                " cableTv":false
+            },
+            "rating":1,
+            "review":"Very good movie! Liked it a lot",
+            "feelings":{
+                "happy":true,
+                "sad":false,
+                "amused":true,
+                "energetic":true,
+                "motivated":false,
+                "fear":false,
+                "lonely":false,
+                "thrilled":false
+            },
+            "watchAgain":true,
+            "like":true,
+            "image": "https://ik.imagekit.io/9ifn2ouyo26/movies/inside-out-2/inside-out-2-poster.jpg"
+        },
+        {
+            "date": "2024-08-11",
+            "movieTitle": "Kalki 2898 AD",
+            "language": "Telugu",
+            "director":"Nag Ashwin",
+            "genre": {
+                "adventure": true,
+                "comedy": true,
+                "romance": false,
+                "family": false,
+                "drama": true,
+                "sciFi": true,
+                "horror":false,
+                "action":true,
+                "fantasy":true,
+                "thriller":true
+            },
+            "releaseYear": "2024",
+            "duration": "3h",
+            "platform":{
+                "ott":true,
+                "theatre":false,
+                " cableTv":false
+            },
+            "rating":5,
+            "review":"Very good movie! Liked it a lot",
+            "feelings":{
+                "happy":true,
+                "sad":false,
+                "amused":true,
+                "energetic":true,
+                "motivated":false,
+                "fear":false,
+                "lonely":false,
+                "thrilled":true
+            },
+            "watchAgain":true,
+            "like":true,
+            "image": "https://th.bing.com/th/id/OIP.ZeLAWETJ9PgWyYJ0pi6mowHaLk?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        {
+            "date": "2024-08-20",
+            "movieTitle": "Animal",
+            "language": "Hindi",
+            "director":"Sandeep Reddy",
+            "genre": {
+                "adventure": true,
+                "comedy": false,
+                "romance": true,
+                "family": false,
+                "drama": true,
+                "sciFi": false,
+                "horror":false,
+                "action":true,
+                "fantasy":false,
+                "thriller":true
+            },
+            "releaseYear": "2023",
+            "duration": "3h24m",
+            "platform":{
+                "ott":true,
+                "theatre":false,
+                " cableTv":false
+            },
+            "rating":3,
+            "review":"Not bad",
+            "feelings":{
+                "happy":true,
+                "sad":false,
+                "amused":true,
+                "energetic":true,
+                "motivated":false,
+                "fear":false,
+                "lonely":false,
+                "thrilled":true
+            },
+            "watchAgain":false,
+            "like":false,
+            "image": "https://th.bing.com/th/id/OIP.NVvJErZHeVBrFA_Xg8BZNAHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        {
+            "date": "2024-08-22",
+            "movieTitle": "The day after tomorrow",
+            "language": "English",
+            "director":"Roland Emmerich",
+            "genre": {
+                "adventure": true,
+                "comedy": false,
+                "romance": true,
+                "family": true,
+                "drama": true,
+                "sciFi": true,
+                "horror":false,
+                "action":true,
+                "fantasy":false,
+                "thriller":true
+            },
+            "releaseYear": "2004",
+            "duration": "2h4m",
+            "platform":{
+                "ott":false,
+                "theatre":false,
+                " cableTv":true
+            },
+            "rating":5,
+            "review":"Very good movie! It has a lot of thrillimg events in the movie.",
+            "feelings":{
+                "happy":true,
+                "sad":false,
+                "amused":true,
+                "energetic":true,
+                "motivated":false,
+                "fear":true,
+                "lonely":false,
+                "thrilled":true
+            },
+            "watchAgain":true,
+            "like":true,
+            "image": "https://th.bing.com/th/id/OIP.v9ErMwN4pZpmVKfaOZKpNwHaLH?w=202&h=303&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        {
+            "date": "2024-07-22",
+            "movieTitle": "The Gravity",
+            "language": "English",
+            "director":"Alfonso Cuaron",
+            "genre": {
+                "adventure": true,
+                "comedy": false,
+                "romance": false,
+                "family": false,
+                "drama": true,
+                "sciFi": true,
+                "horror":false,
+                "action":true,
+                "fantasy":false,
+                "thriller":true
+            },
+            "releaseYear": "2013",
+            "duration": "1h31m",
+            "platform":{
+                "ott":true,
+                "theatre":false,
+                " cableTv":false
+            },
+            "rating":5,
+            "review":"Very good movie! It has a lot of thrillimg events in the movie.",
+            "feelings":{
+                "happy":true,
+                "sad":false,
+                "amused":true,
+                "energetic":true,
+                "motivated":true,
+                "fear":true,
+                "lonely":false,
+                "thrilled":true
+            },
+            "watchAgain":true,
+            "like":true,
+            "image": "https://th.bing.com/th/id/OIP.J9LNuMDIoafvfTKhKTAbwwHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        {
+            "date": "2024-07-28",
+            "movieTitle": "Train to Busan",
+            "language": "Korean",
+            "director":"Yeon Sang-ho",
+            "genre": {
+                "adventure": true,
+                "comedy": false,
+                "romance": false,
+                "family": true,
+                "drama": true,
+                "sciFi": true,
+                "horror":true,
+                "action":true,
+                "fantasy":false,
+                "thriller":true
+            },
+            "releaseYear": "2016",
+            "duration": "1h58m",
+            "platform":{
+                "ott":true,
+                "theatre":false,
+                " cableTv":false
+            },
+            "rating":5,
+            "review":"Very good movie! It has a lot of thrillimg events in the movie.",
+            "feelings":{
+                "happy":false,
+                "sad":true,
+                "amused":true,
+                "energetic":false,
+                "motivated":true,
+                "fear":true,
+                "lonely":false,
+                "thrilled":true
+            },
+            "watchAgain":true,
+            "like":true,
+            "image": "https://th.bing.com/th/id/OIP.NfPa0Ty4QMR-PpP_6SrivgHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        {
+            "date": "2024-08-21",
+            "movieTitle": "Autumn Fairy Tale",
+            "language": "Chinese",
+            "director":"Caitao Wang",
+            "genre": {
+                "adventure": false,
+                "comedy": true,
+                "romance": true,
+                "family": true,
+                "drama": true,
+                "sciFi": false,
+                "horror":false,
+                "action":false,
+                "fantasy":true,
+                "thriller":false
+            },
+            "releaseYear": "2019",
+            "duration": "1h45m",
+            "platform":{
+                "ott":true,
+                "theatre":false,
+                " cableTv":false
+            },
+            "rating":5,
+            "review":"It has a very sad ending.",
+            "feelings":{
+                "happy":false,
+                "sad":false,
+                "amused":true,
+                "energetic":false,
+                "motivated":false,
+                "fear":false,
+                "lonely":false,
+                "thrilled":false
+            },
+            "watchAgain":false,
+            "like":true,
+            "image": "https://th.bing.com/th/id/OIP.SZTDogFteWyx-3Q0Jo6hEQHaJQ?w=139&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        {
+            "date": "2024-08-25",
+            "movieTitle": "Arundathi",
+            "language": "Telugu",
+            "director":"Kodi Ramakrishna",
+            "genre": {
+                "adventure": true,
+                "comedy": false,
+                "romance": true,
+                "family": true,
+                "drama": true,
+                "sciFi": false,
+                "horror":true,
+                "action":true,
+                "fantasy":true,
+                "thriller":true
+            },
+            "releaseYear": "2009",
+            "duration": "2h11m",
+            "platform":{
+                "ott":false,
+                "theatre":false,
+                " cableTv":true
+            },
+            "rating":5,
+            "review":"Very good movie! It has a lot of thrillimg events in the movie.",
+            "feelings":{
+                "happy":true,
+                "sad":false,
+                "amused":true,
+                "energetic":true,
+                "motivated":true,
+                "fear":true,
+                "lonely":false,
+                "thrilled":true
+            },
+            "watchAgain":true,
+            "like":true,
+            "image": "https://th.bing.com/th/id/OIP.FoXW0oK55vH78ViRVKFtRgHaFj?w=202&h=152&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        {
+            "date": "2024-08-30",
+            "movieTitle": "The Boss Baby",
+            "language": "English",
+            "director":"Tom McGrath",
+            "genre": {
+                "adventure": true,
+                "comedy": true,
+                "romance": false,
+                "family": true,
+                "drama": true,
+                "sciFi": true,
+                "horror":false,
+                "action":true,
+                "fantasy":false,
+                "thriller":false
+            },
+            "releaseYear": "2017",
+            "duration": "1h37m",
+            "platform":{
+                "ott":true,
+                "theatre":false,
+                " cableTv":false
+            },
+            "rating":4,
+            "review":"The baby is very cute!!!",
+            "feelings":{
+                "happy":true,
+                "sad":false,
+                "amused":true,
+                "energetic":true,
+                "motivated":true,
+                "fear":false,
+                "lonely":false,
+                "thrilled":true
+            },
+            "watchAgain":true,
+            "like":true,
+            "image": "https://images.moviesanywhere.com/2313a14222af65fc9f4eba100df3dd42/795b8a71-dca2-4fd1-bf92-8e730fd4e23b.jpg"
+        },
+        {
+            "date": "2024-09-03",
+            "movieTitle": "Saripodha Sanivaram",
+            "language": "Telugu",
+            "director":"Vivek Athreya",
+            "genre": {
+                "adventure": true,
+                "comedy": true,
+                "romance": true,
+                "family": true,
+                "drama": true,
+                "sciFi": false,
+                "horror":false,
+                "action":true,
+                "fantasy":false,
+                "thriller":true
+            },
+            "releaseYear": "2024",
+            "duration": "2h46m",
+            "platform":{
+                "ott":false,
+                "theatre":true,
+                " cableTv":false
+            },
+            "rating":5,
+            "review":"The plot is very good!! A must watch movie!!",
+            "feelings":{
+                "happy":true,
+                "sad":false,
+                "amused":true,
+                "energetic":true,
+                "motivated":true,
+                "fear":false,
+                "lonely":false,
+                "thrilled":true
+            },
+            "watchAgain":true,
+            "like":true,
+            "image": "https://th.bing.com/th/id/OIP.D8_SBmo-Yk5ig1ThxyaGHAHaHa?w=185&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },        {
+            "date": "2024-09-07",
+            "movieTitle": "World War Z",
+            "language": "English",
+            "director":"Marc Forster",
+            "genre": {
+                "adventure": true,
+                "comedy": false,
+                "romance": false,
+                "family": true,
+                "drama": true,
+                "sciFi": true,
+                "horror":false,
+                "action":true,
+                "fantasy":true,
+                "thriller":true
+            },
+            "releaseYear": "2013",
+            "duration": "1h56m",
+            "platform":{
+                "ott":true,
+                "theatre":false,
+                " cableTv":false
+            },
+            "rating":4,
+            "review":"The plot is very interesting!!",
+            "feelings":{
+                "happy":false,
+                "sad":true,
+                "amused":true,
+                "energetic":true,
+                "motivated":true,
+                "fear":true,
+                "lonely":false,
+                "thrilled":true
+            },
+            "watchAgain":false,
+            "like":false,
+            "image": "https://th.bing.com/th/id/OIP.kYys_d88GLzBb2C2MKv9gQHaEK?w=275&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },        {
+            "date": "2024-09-13",
+            "movieTitle": "The Princess Diaries",
+            "language": "English",
+            "director":"Garry Marshall",
+            "genre": {
+                "adventure": false,
+                "comedy": true,
+                "romance": true,
+                "family": true,
+                "drama": true,
+                "sciFi": false,
+                "horror":false,
+                "action":false,
+                "fantasy":false,
+                "thriller":false
+            },
+            "releaseYear": "2001",
+            "duration": "1h55m",
+            "platform":{
+                "ott":true,
+                "theatre":false,
+                " cableTv":false
+            },
+            "rating":5,
+            "review":"The story line is very good",
+            "feelings":{
+                "happy":true,
+                "sad":false,
+                "amused":false,
+                "energetic":true,
+                "motivated":false,
+                "fear":false,
+                "lonely":false,
+                "thrilled":true
+            },
+            "watchAgain":true,
+            "like":true,
+            "image": "https://th.bing.com/th/id/OIP.EAOpYwhzfLIiijkYaab80gHaEK?rs=1&pid=ImgDetMain"
+        }     
+    ]
+}
