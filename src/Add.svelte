@@ -118,15 +118,15 @@ function arrayBufferToBase64(buffer) {
   
   <div class="addForm">
     <div class="addform-header">
-      <h3>Add New Movie </h3>
+      <h3>Add Movie </h3>
     </div>
     <form class="movie-form">
       <label>Movie Title:
         <input type="text" bind:value={newMovie.movieTitle} required>
-      </label><br>
+      </label><br><br>
       <label>Date Watched:
         <input type="date" bind:value={newMovie.date} required>
-      </label><br>
+      </label><br><br>
       <label>Genre of the movie:
         <div class="checkbox-container">
           <div class="left">
@@ -180,7 +180,7 @@ function arrayBufferToBase64(buffer) {
     
             <!-- Add more options as needed -->
           </select>
-        </label><br>
+        </label><br><br>
         <label>Do you like the movie? 
           <label>
               <input type="radio" name="like" bind:group={newMovie.like} value="yes"> Yes
@@ -188,28 +188,28 @@ function arrayBufferToBase64(buffer) {
           <label>
               <input type="radio" name="like" bind:group={newMovie.like} value="no"> No
           </label>
-      </label><br>
+      </label><br><br>
       
       <label><button type="button" class="normalButton redPlus" on:click={addYear}>{#if !yearSelect}+ {:else} - {/if}</button> Release Year
         {#if yearSelect}: 
         <input type="number" min="2000" max="2024" bind:value={newMovie.releaseYear}>{/if}
-      </label><br>
+      </label><br><br>
     
       <label><button type="button" class="normalButton redPlus" on:click={addDuration}>{#if !durationSelect}+ {:else} - {/if}</button> Duration
         {#if durationSelect} : <input type="text"placeholder="example 1h36m" bind:value={newMovie.duration}>{/if}
-      </label><br>
+      </label><br><br>
       
       <label><button type="button" class="normalButton redPlus" on:click={addRating}>{#if !ratingSelect}+ {:else} - {/if}</button> Rating
         {#if ratingSelect} :
-        <label><input type="radio" name="rating1" bind:group={newMovie.rating} value=1> 1</label>
-        <label><input type="radio" name="rating2" bind:group={newMovie.rating} value=2> 2</label>
-        <label><input type="radio" name="rating3" bind:group={newMovie.rating} value=3> 3</label>
-        <label><input type="radio" name="rating4" bind:group={newMovie.rating} value=4> 4</label>
-        <label><input type="radio" name="rating5" bind:group={newMovie.rating} value=5> 5</label>
+        <br><label><input type="radio" name="rating1" bind:group={newMovie.rating} value=1> 1</label><br>
+        <label><input type="radio" name="rating2" bind:group={newMovie.rating} value=2> 2</label><br>
+        <label><input type="radio" name="rating3" bind:group={newMovie.rating} value=3> 3</label><br>
+        <label><input type="radio" name="rating4" bind:group={newMovie.rating} value=4> 4</label><br>
+        <label><input type="radio" name="rating5" bind:group={newMovie.rating} value=5> 5</label><br>
         {/if}
-      </label><br>
+      </label><br><br>
       <label><button type="button" class="normalButton redPlus" on:click={addReview}>{#if !reviewSelect}+ {:else} - {/if}</button> Review
-        {#if reviewSelect}:<br><br><textarea bind:value={newMovie.review}></textarea >{/if}</label><br>
+        {#if reviewSelect}:<br><br><textarea bind:value={newMovie.review}></textarea >{/if}</label><br><br>
 
       <label><button type="button" class="normalButton redPlus" on:click={addImage}>{#if !imageSelect}+ {:else} - {/if}</button> Image URL 
       {#if imageSelect}:
@@ -232,10 +232,9 @@ function arrayBufferToBase64(buffer) {
   border-radius: 50px;
   border-width: 30px;
   width:95%;
-  font-size: 30px;
+  font-size: 20px;
   color:black ;
   align-items: flex-end;
-  font-size: 20px;
   background-color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -248,17 +247,19 @@ function arrayBufferToBase64(buffer) {
   
 }
 input,input[type="checkbox"]{
-  font-size: 20px;
+  font-size: 18px;
   font-family: cursive;
 }
 /* .modal-close{
 margin-left:100%;
 } */
 h3{
-  text-align: center;}
+  text-align: center;
+  font-size:30px;
+}
   
 #languageSelect{
-  font-size: 20px;
+  font-size: 18px;
   font-family: cursive;
   width: 400px;}
 
@@ -282,10 +283,7 @@ h3{
   width: 85%;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px; /* Space between checkboxes */
-}
+
 input:required {
   border: 2px solid red; /* Change the border color */
   background-color: #ffe6e6; /* Light red background */
@@ -300,6 +298,8 @@ textarea{
   height: 300px;
   width:500px;
   margin-left:30px;
+  font-family: cursive;
+  font-size: 18px;
 }
 
 /* Optional: Style for valid inputs */

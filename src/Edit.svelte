@@ -166,7 +166,6 @@ function arrayBufferToBase64(buffer) {
   border-radius: 20px;
   border-width: 30px;
   width:95%;
-  font-size: 30px;
   color:black ;
   align-items: flex-end;
   font-size: 20px;
@@ -186,6 +185,7 @@ function arrayBufferToBase64(buffer) {
 }
 h3{
   text-align: center;
+  font-size:30px;
 }
 
 .checkbox-container {
@@ -200,19 +200,21 @@ h3{
 .right{
   width: 85%;
 }
-input,input[type="checkbox"]{
-  font-size: 20px;
+input,input[type="checkbox"],input[type="file"]{
+  font-size: 18px;
   font-family: cursive;
 }
 #languageSelect{
-  font-size: 20px;
+  font-size: 18px;
   font-family: cursive;
   width: 400px;}
 
   textarea{
   height: 300px;
   width:500px;
-  margin-left:10px;
+  margin-left:9px;
+  font-family: cursive;
+  font-size: 18px;
 }
 
 input:required {

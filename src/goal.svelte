@@ -104,7 +104,7 @@
 
 
 <div class="goal">
-    <h2>Add a Goal</h2>
+    <h2>Add Goals</h2>
     <input
         type="text"
         bind:value={newGoal}
@@ -164,6 +164,7 @@
      margin: 5px 0;
      align-items: center;
      transition: background-color 0.2s;
+     font-size:18px;
  }
  .goal-item.completed {
      text-decoration: line-through;
@@ -171,7 +172,6 @@
      background-color: #e0ffe0;
  }
  .goal-item.in-progress {
-     font-weight: bold;
      color: orange;
  }
  .notification {
@@ -187,7 +187,7 @@
   margin-right: 20px;
   min-height:600px;
   width:95%;
-  font-size: large;
+  font-size: 20px;
   font-family:cursive;
   color: black;
   background-color: white;
@@ -195,7 +195,6 @@
   border-color: black;
   border-width: 30px;
   position: relative;
-  font-weight: bold;
   padding: 10px;
   padding-bottom: 20px;
 
@@ -205,10 +204,14 @@
 }
 h2{
     text-align: center;
+    font-size: 30px;
 }
 input{
-  font-size: 20px;
+  font-size: 18px;
   font-family: cursive;
+}
+h3{
+font-size:20px;
 }
 
 

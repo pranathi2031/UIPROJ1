@@ -621,7 +621,7 @@ getTotalMovies();
     <div class="activeBegin"> <p class="active">ACTIVE FOR {activeCount} DAYS</p>
       <p class="begin"> {beginCount} DAYS SINCE BEGINNING</p><br>
   </div>
-    <p>MOVIE ENTRIES  <button class="normalButton" on:click="{() => smoothScroll('#section2')}" on:click={addForm}>ADD</button></p>
+    <p class="movie-heading">MOVIE ENTRIES  <button class="normalButton" on:click="{() => smoothScroll('#section2')}" on:click={addForm}>ADD</button></p>
     
     {#if latestMovies.length > 0}
       <div class="movie-container">
@@ -951,7 +951,9 @@ a:hover {
     width:200px;
     text-align: center;
     font-size: 20px;
-
+  }
+  .movie-heading{
+    font-size: 20px;
   }
 
 
