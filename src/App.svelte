@@ -1,6 +1,5 @@
 <script>
  import { Router, Route, link } from 'svelte-routing';
- import Overview from './Overview.svelte';
  import userData from './movieData.json';
  import Edit from './Edit.svelte';
  import Add from './Add.svelte';
@@ -55,7 +54,7 @@ beginCount = moment(today).diff(moment(startDate), 'days');
   
 }
 
-  function active_Count(){
+function active_Count(){
     let dateArray =[];
      for (let j=0;j< userData.user.length;j++){
     
@@ -63,27 +62,20 @@ beginCount = moment(today).diff(moment(startDate), 'days');
     }
     let dateArray1 = [...new Set(dateArray)];
     activeCount = dateArray1.length;
-   }
-  
-  function toggleLike(movieIndex) {
-    latestMovies[movieIndex].like = latestMovies[movieIndex].like === "yes" ? "no" : "yes";
-    // Optionally, trigger a state update if necessary
 }
+  
 
 let showGoalSetter = false; // State to manage visibility of GoalAdder
 
-    // Function to toggle visibility
-    function toggleGoalAdder() {
-        showGoalSetter = !showGoalSetter;
-    }
+// Function to toggle visibility
+function toggleGoalAdder() {
+  showGoalSetter = !showGoalSetter;
+}
 let showOverview = false;
 function toggleOverview(){
   showOverview = !showOverview;
 }
 let months =["Jan","Feb","March","April","May","June","July","August","September","October","November","December"];
-function switchThemes(){
-
-}
 /*Function to update time dynamically*/
 let dateValue='';
 let day = new Date().getDate();
@@ -132,14 +124,14 @@ function getNextMovie() {
 
 }
 
-  function getPrevMovie() {
+function getPrevMovie() {
     if (currentIndex > 0) {
       currentIndex -= entries;
       isDisabled1 = false; // Enable the next button if it was disabled
     }
     // Disable the previous button if we're at the start
     isDisabled2 = currentIndex <= 0;
-  }
+}
 
  
  
@@ -149,7 +141,7 @@ showAddForm = !showAddForm;
 }
 function cancelAdd() {
     showAddForm = false; // Just close the form
-  }
+}
 
 
 function showNotification() {
@@ -167,7 +159,7 @@ function showNotification() {
       } else {
         alert("This browser does not support notifications.");
       }
-    }
+}
 
     // Call the function to show notification when the page is loaded
     window.onload = showNotification;
@@ -175,11 +167,11 @@ function showNotification() {
     let imageURL = '';
 
 
-  function openEditForm(movie) {
+function openEditForm(movie) {
     movieToEdit = movie;
     showEditForm = true;
     console.log(movie);
-  }
+}
 
 
   function upFeelings(){
@@ -399,7 +391,6 @@ getTotalMovies();
   const images = {
     Adventure: 'https://www.hdwallpapers.in/download/wild_adventure_4k-HD.jpg',
     Horror: 'https://th.bing.com/th/id/R.b77fe26a0d0f6d275a79aadf78753ca3?rik=FmwHqTQlXDsVGA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fLm6aayS.jpg&ehk=TDkQmzjWbqDrHpayPAaVjcAFTAAva%2bcI66mteq%2frqi4%3d&risl=&pid=ImgRaw&r=0',
-    Action: 'https://wallpaperaccess.com/full/1810037.jpg',
     Romance:'https://images.pixexid.com/a-nighttime-sky-adorned-with-a-canopy-of-glowing-stars-where-fantastical-creatu-skan5pn3.jpeg',
   };
 
@@ -605,7 +596,6 @@ getTotalMovies();
         Change Themes<br>
         <label><input type='radio' name="settings" bind:group={selectedImage} value='Adventure'> Adventure</label><br>
         <label><input type='radio'name="settings"  bind:group={selectedImage} value='Horror'> Horror</label><br>
-        <label><input type='radio' name="settings" bind:group={selectedImage} value='Action'> Action</label><br>
         <label><input type='radio' name="settings" bind:group={selectedImage} value='Romance'> Romance</label><br>
       </label>
      
@@ -716,20 +706,6 @@ getTotalMovies();
 
 </main>
 <style>
-/* .time{
-  width:200px;
-  border-radius: 20px;
-  color:white;
-  font-size: 20px;
-  height: 20px;
-} */
-/* .date{
-  height:20px;
-  padding-left: 1000px;
-  border-radius: 20px;
-  color:white;
-  font-size: 20px;
-} */
 nav {
   position: relative;
   z-index: 1;
@@ -738,7 +714,6 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
- /* Distributes space between items */
   padding: 0 20px; /* Add padding to prevent items from touching the edges */
   opacity: 1;
   font-weight: bold;
@@ -755,7 +730,7 @@ a {
 a:hover {
   background-color: white;
   cursor: pointer;
-  height:60px;
+  height:5px;
 }
 
 .navInputs {
@@ -764,7 +739,7 @@ a:hover {
 }
 
 .date {
-  margin-left: 20px; /* Space between date and time */
+  margin-left: 20px; 
   color: black;
   font-size: 15px;
   width:150px;
@@ -782,7 +757,7 @@ a:hover {
 }
 
 .settings-button:hover {
-  color:white; /* Change color on hover */
+  color:white; 
 }
 
 .content {
@@ -790,7 +765,7 @@ a:hover {
   }
 
 .spacer {
-    height: 250px; /* Adds space to scroll */
+    height: 250px; 
 }
 .name{
   
@@ -812,7 +787,7 @@ a:hover {
   border-radius: 10px;
   padding: 10px;
   background-color: #f9f9f9;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -831,16 +806,6 @@ a:hover {
   position: relative;
   margin-right:10px;
 }
-/* .addform-header,.movie-form{
-  color:black ;
-  align-items: flex-end;
-  font-size: 30px;
-  background-color: white;
-  border-radius: 20px;
-  padding-left: 20px;
-
-  
-} */
 
 .movieLike{
   cursor:pointer;
@@ -864,17 +829,16 @@ a:hover {
 }
 .settings-menu {
     position: absolute;
-    top: 50px; /* Adjust based on your layout */
+    top: 50px;
     right: 0;
     background: white;
     border: 1px solid #ddd;
     padding: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    /* Add more styles to match your design */
     color:black;
     text-align: justify;
-  }
-  main {
+}
+main {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -882,8 +846,6 @@ a:hover {
   font-family:cursive;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-image: url('https://th.bing.com/th/id/R.b77fe26a0d0f6d275a79aadf78753ca3?rik=FmwHqTQlXDsVGA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fLm6aayS.jpg&ehk=TDkQmzjWbqDrHpayPAaVjcAFTAAva%2bcI66mteq%2frqi4%3d&risl=&pid=ImgRaw&r=0'); */
-  /* background-image: url('https://static.vecteezy.com/system/resources/previews/023/218/138/non_2x/black-starry-sky-dark-night-sky-infinity-space-with-shiny-stars-mystery-dark-universe-background-vector.jpg');  */
 }
 
 .goalButton{

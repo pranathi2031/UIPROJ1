@@ -9,9 +9,6 @@
     let imageSelect = false; 
     let imageSrc = new ArrayBuffer(64);  // This will hold the base64 or URL of the uploaded image
     let imageFile = null;
-     
-
-  
      let newMovie = {
       id:'',
       date: new Date().toLocaleDateString('en-CA'),
@@ -47,13 +44,12 @@
       image: ""
     };
   
-    function save() {
-      onSave(newMovie);
- 
-}
+function save() {
+  onSave(newMovie);
+ }
 
 
-  function addYear(){
+function addYear(){
   yearSelect =!yearSelect;
 }
 
@@ -114,7 +110,7 @@ function arrayBufferToBase64(buffer) {
   return window.btoa(binary);
 }
 
-  </script>
+</script>
   
   <div class="addForm">
     <div class="addform-header">
@@ -178,7 +174,6 @@ function arrayBufferToBase64(buffer) {
             <option value="Thai">Thai</option>
             <option value="Tamil">Tamil</option>
     
-            <!-- Add more options as needed -->
           </select>
         </label><br><br>
         <label>Do you like the movie? 
@@ -227,7 +222,7 @@ function arrayBufferToBase64(buffer) {
 
   
   <style>
-    .addForm{
+  .addForm{
   border-color: black;
   border-radius: 50px;
   border-width: 30px;
@@ -238,7 +233,6 @@ function arrayBufferToBase64(buffer) {
   background-color: white;
   padding-left: 20px;
   padding-right: 20px;
-  /* background-image: url('https://static.vecteezy.com/system/resources/previews/000/543/795/original/gray-poster-abstract-background-vector.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 30px;
@@ -250,9 +244,6 @@ input,input[type="checkbox"]{
   font-size: 18px;
   font-family: cursive;
 }
-/* .modal-close{
-margin-left:100%;
-} */
 h3{
   text-align: center;
   font-size:30px;
@@ -273,7 +264,7 @@ h3{
 .checkbox-container {
   display: flex;
   justify-content:space-evenly; /* Space between the two columns */
-  width: 100%; /* Adjust as necessary */
+  width: 100%; 
 }
 
 .left{
@@ -285,8 +276,8 @@ h3{
 
 
 input:required {
-  border: 2px solid red; /* Change the border color */
-  background-color: #ffe6e6; /* Light red background */
+  border: 2px solid red; 
+  background-color: #ffe6e6; 
 }
 
 input:valid{
@@ -302,9 +293,5 @@ textarea{
   font-size: 18px;
 }
 
-/* Optional: Style for valid inputs */
-
-
-
-  </style>
+</style>
   

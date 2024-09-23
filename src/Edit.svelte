@@ -66,8 +66,7 @@ function arrayBufferToBase64(buffer) {
       <input type="date" bind:value={editedMovie.date} required>
     </label><br><br>
     
-    <!-- Additional fields similar to the add form -->
-    <label aria-required="true">Genre of the movie:
+    <label>Genre of the movie:
       <div class="checkbox-container">
         <div class="left">
           <label><input type="checkbox" bind:checked={editedMovie.genre.adventure}> Adventure</label><br>
@@ -118,7 +117,6 @@ function arrayBufferToBase64(buffer) {
             <option value="Thai">Thai</option>
             <option value="Tamil">Tamil</option>
     
-            <!-- Add more options as needed -->
           </select>
         </label><br><br>
 
@@ -160,8 +158,7 @@ function arrayBufferToBase64(buffer) {
   </div>
   
   <style>
-    /* Add styles as needed */
-    .editForm{
+  .editForm{
   border-color: black;
   border-radius: 20px;
   border-width: 30px;
@@ -175,7 +172,6 @@ function arrayBufferToBase64(buffer) {
   padding-right: 20px;
   padding-bottom: 20px;
   padding-top: 20px;
-  /* background-image: url('https://static.vecteezy.com/system/resources/previews/000/543/795/original/gray-poster-abstract-background-vector.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 30px;
@@ -190,8 +186,8 @@ h3{
 
 .checkbox-container {
   display: flex;
-  justify-content:space-evenly; /* Space between the two columns */
-  width: 100%; /* Adjust as necessary */
+  justify-content:space-evenly; 
+  width: 100%; 
 }
 
 .left{
@@ -226,9 +222,6 @@ input:valid{
   background-color: white;
   border-color: black;
 }
-
-
-
 
   </style>
   
