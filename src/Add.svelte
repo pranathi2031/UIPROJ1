@@ -70,7 +70,6 @@ function addImage(){
 }
 
 function handleFileUpload(event) {
-  imageSelect = !imageSelect;
   const file = event.target.files[0];
 
   if (file && file.type.startsWith('image/')) {
@@ -207,9 +206,9 @@ function arrayBufferToBase64(buffer) {
         {#if reviewSelect}:<br><br><textarea bind:value={newMovie.review}></textarea >{/if}</label><br><br>
 
       <label><button type="button" class="normalButton redPlus" on:click={addImage}>{#if !imageSelect}+ {:else} - {/if}</button> Image URL 
-      {#if imageSelect}:
+      <div class:visible={imageSelect} class="image-container"> :    
       <input type="file" accept="image/*" on:change={handleFileUpload}>
-      {/if}
+      </div>
       </label>
       <br><br>
       <button class="normalButton" on:click={save}>SAVE</button>
@@ -291,6 +290,14 @@ textarea{
   margin-left:30px;
   font-family: cursive;
   font-size: 18px;
+}
+.image-container {
+    display: none;
+    margin-left: 5px;
+  }
+  
+.image-container.visible {
+    display: inline;
 }
 
 </style>
