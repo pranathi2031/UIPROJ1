@@ -1,4 +1,6 @@
 **UI Project 1- Binge Tracker**
+
+
 Binge tracker is a prototype application where a single user can track the movies that he/she watched. They can add a new movie they watched and edit or delete any of the entries. There is a way to add the goals and track their status. The overview statistics of the movies watched can also be tracked in this application.
 
 
